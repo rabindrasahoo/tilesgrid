@@ -1,0 +1,4 @@
+designlib:
+  css:
+    component:
+      css/tilesgrid.css: {}

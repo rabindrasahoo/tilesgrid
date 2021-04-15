@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_promote_tiles_to_the_home
+    - node.type.tile
+id: node.tile.field_promote_tiles_to_the_home
+field_name: field_promote_tiles_to_the_home
+entity_type: node
+bundle: tile
+label: 'Promote tiles to the homepage tiles grid'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

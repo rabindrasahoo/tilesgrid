@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: tiles
+label: Tiles
+effects:
+  b582a192-8931-4f17-92c1-34eab03b4655:
+    uuid: b582a192-8931-4f17-92c1-34eab03b4655
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 411
+      height: 272
+      anchor: center-center

@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tile_text
+    - node.type.tile
+id: node.tile.field_tile_text
+field_name: field_tile_text
+entity_type: node
+bundle: tile
+label: 'Tile Text'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_video
+    - node.type.tile
+id: node.tile.field_video
+field_name: field_video
+entity_type: node
+bundle: tile
+label: Video
+description: 'Please enter below format "http://www.youtube.com/watch_popup?v=[Your video Id]"'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

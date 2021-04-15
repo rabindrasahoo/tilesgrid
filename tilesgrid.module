@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * This file adds a library to views page or block.
+ */
+
+use Drupal\views\ViewExecutable;
+
+/**
+ * Implements hook_views_pre_render().
+ */
+function tilesgrid_views_pre_render(ViewExecutable $view) {
+  if (isset($view) && ($view->storage->id() == 'grid_tile')) {
+    $view->element['#attached']['library'][] = 'tilesgrid/designlib';
+  }
+}
+

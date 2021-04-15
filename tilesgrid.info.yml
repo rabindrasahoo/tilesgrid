@@ -1,0 +1,10 @@
+name: Tiles Grid
+description: Tiles Grid for Home Page
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:views
+  - colorbox:colorbox
+  - colorbox_simple_load:colorbox_simple_load
+  - entityqueue:entityqueue
